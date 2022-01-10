@@ -7,57 +7,133 @@ body{
     background-color: #ebebeb;
    
 }
-.nav{
-    background-color:#1E1E1E;
-    width: 100%;
+.header{
+width:100% ;
+background-color: #EEEDF2;
+box-shadow: 0px 3px 3px 0px #c8c7cc;
 }
+
 nav{
    
     padding: 20px 0;
-    margin: 0 0 20px;
-    width: 40%;
+    width: 50% !important; 
+    font-weight: bold;
+    margin-bottom: 5px; 
 }
 ul{
     display: flex;
     justify-content: space-around;
 }
+li{
+    list-style: none;
+}
 li a{
     text-decoration: none;
-    color: white;
+    color: rgb(12, 12, 12);
+    font-size:14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#F3F3F3;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    margin-bottom: 1%;
+    box-shadow: 0px 2px 2px grey;
+}
+.p{
+    color: #F3F111;
+}
+header div{
+    width: 50%;
     font-size: 20px;
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.logo{
+    width: 60%;
+}
+.btn{
+    
+    width: 20%;
+    padding: 5px;
+    background: black;
+    color:#F3F111;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    box-shadow:  2px 2px grey;
 }
 .main{
-    width:50%;
+    background-color: #E0E3E8;
+    width:80%;
     display: flex;
     height:400px;
-    justify-content:center;
+    align-items: center;
     margin: auto;
 }
 .main div{
-    text-align: center;
-    width:99%;
+    width:100%;
     margin: 1%;
     
 }
-img{
-    width:50%;
-    border-style:solid ;
-    height: 300px;
+.img{
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 15%;
 
 
 }
-.mu{
-    display: inline-block;
+.par{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.bar{
+    background-color: gray;
+    display: block;
+    height: 2px;
+    border:1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+}
+.bar span{
+    height: 6px;
+    float: left;
+    background-color: yellow;
 }
  .serv{
     background-color: gray;
-   
-    margin: 1%;
     color:white;
-    font-size: 20px;
-    margin-right: 1%;
+    font-size: 25px;
+    padding: 10px;
+    
 }
+.html{
+    width: 90%;
+}
+.css{
+    width: 85%;
+}
+.micro{
+    width: 97%;
+}
+.analysis{
+    width: 95%;
+}
+.c{
+    width: 80%;
+}
+.cc{
+    width: 80%;
+}
+
 .fab{
     font-size: 30px;
 }
